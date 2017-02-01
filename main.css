@@ -5,3 +5,12 @@
   border-style: solid;
   border-color: black;
 }
+
+
+.playerOneMove{
+  background-color: blue;
+}
+
+.playerTwoMove{
+  background-color: white;
+}
