@@ -2,7 +2,7 @@
 document.addEventListener("keydown", function(event) {
   var key=event.which;
   if(key === 65){
-    $(this).innerHTML = "";
+    console.log("You Pressed L");
   }else{
     console.log("You Pressed L");
   }
