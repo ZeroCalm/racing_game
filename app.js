@@ -1,26 +1,49 @@
+//
+// $(document).ready(function() {
+//
+//   var p1 = $('.p1 li.current');
+//   var p2 = $('.p2 li.current');
+//
+//   document.addEventListener("keydown", (event) => {
+//     const key = event.which;
+//
+//     if (key === 65) {
+//       var next = p1.next();
+//       p1.removeClass('current');
+//       p1.next().addClass('current');
+//       p1 = next;
+//
+//     } else {
+//       var next = p2.next();
+//       p2.removeClass('current');
+//       p2.next().addClass('current');
+//       p2 = next;
+//     }
+//   });
+//
+// });
 
-document.addEventListener("keydown", function(event) {
-  var key=event.which;
-  if(key === 65){
-    console.log("You Pressed A");
-  }else{
-    console.log("You Pressed L");
-  }
 
+$(document).ready(function() {
 
-    });
+  let p1 = $('.p1 li.current');
+  let p2 = $('.p2 li.current');
 
+  document.addEventListener("keydown", function(event){
+    const key = event.which;
 
-    //
-    // $("button").click(function() {
+    if (key === 65) {
+      const next = p1.next();
+      p1.removeClass('current');
+      p1.next().addClass('current');
+      p1 = next;
 
-
-
-
-$(document).ready(function(){
-
-
-
-
+    } else {
+      const next = p2.next();
+      p2.removeClass('current');
+      p2.next().addClass('current');
+      p2 = next;
+    }
+  });
 
 });

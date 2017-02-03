@@ -1,4 +1,22 @@
-.cell{
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  height: 80px;
+  width: 80px;
+  background: red;
+  border-style: solid;
+  border-color: black;
+  display: inline-block;
+}
+
+.current {
+  background: green;
+}
+
+/*.cell {
   height: 80px;
   width: 80px;
   background-color: red;
@@ -6,6 +24,18 @@
   border-color: black;
 }
 
+.p1-current,
+.p2-current {
+  color: green;
+  position: relative;
+  font-size: 1.5em;
+}
+
+.p2-current:after,
+.p2-current:after {
+  position: absolute;
+  content: 'x';
+}
 
 .playerOneMove{
   background-color: blue;
@@ -13,4 +43,4 @@
 
 .playerTwoMove{
   background-color: white;
-}
+}*/

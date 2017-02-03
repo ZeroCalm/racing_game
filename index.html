@@ -2,29 +2,39 @@
 <html>
   <head>
     <meta charset="utf-8">
+
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- JQuery -->
-    <script src="http://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 
     <!-- MY CSS-->
      <link rel="stylesheet" type="text/css" href="main.css">
-
-    <!--MY JS FILE-->
-    <script src="app.js"></script>
-
 
     <title>The Racing game</title>
 
   </head>
   <body>
-    <div class="container">
+
+  <ul class="p1">
+    <li class="current"></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+
+  <ul class="p2">
+    <li class="current"></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+
+    <!-- <div class="container">
       <div class="row">
-  <div class="col-sm-4 cell playerOneStart"><p>X</p></div>
-  <div class="col-sm-4 cell playerTwoStart"><p>X</p></div>
+  <div class="col-sm-4 cell p1-current"></div>
+  <div class="col-sm-4 cell p2-current"></div>
      </div>
      <div class="row">
  <div class="col-sm-4 cell playerOneOne"></div>
@@ -35,28 +45,22 @@
 <div class="col-sm-4 cell playerTwoTwo"></div>
    </div>
 
-   <!-- My "cars" dont move, I fail.
-   But my "buttonPush" event is Good
-   I can finish the assignment, but not in one day.
-   another 24 hours, and I can make them move,
-   I'm sorry, I just have nothing else. -->
-   <div class="row">
-<div class="col-sm-4 cell playerOneThree"></div>
-<div class="col-sm-4 cell playerTwoThree"></div>
-  </div>
-  <div class="row">
-<div class="col-sm-4 cell playerOneFour"></div>
-<div class="col-sm-4 cell playerTwoFour"></div>
- </div>
- <div class="row">
-<div class="col-sm-4 cell playerOneFive"></div>
-<div class="col-sm-4 cell playerTwoFive"></div>
-</div>
-
-
-
-
-
+   
+   <!-- <div class="row">
+      <div class="col-sm-4 cell playerOneThree"></div>
+      <div class="col-sm-4 cell playerTwoThree"></div>
     </div>
+    <div class="row">
+      <div class="col-sm-4 cell playerOneFour"></div>
+      <div class="col-sm-4 cell playerTwoFour"></div>
+     </div>
+    <div class="row">
+        <div class="col-sm-4 cell playerOneFive"></div>
+        <div class="col-sm-4 cell playerTwoFive"></div>
+      </div>
+    </div> -->
+
+    <!--MY JS FILE-->
+    <script src="app.js"></script>
   </body>
 </html>
